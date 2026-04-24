@@ -2,7 +2,6 @@
 
 Aplicação web que simula uma Copa do Mundo completa, desde a fase de grupos até a final, utilizando dados reais de seleções via API.
 
----
 
 ## Funcionalidades
 
@@ -18,13 +17,11 @@ Aplicação web que simula uma Copa do Mundo completa, desde a fase de grupos at
   * Chaveamento do mata-mata
 * Integração com API externa
 
----
 
 ## Acesse o projeto
 
 🔗 ( [**https://marcoshjunior.github.io/Copa-do-Mundo/**](https://marcoshjunior.github.io/Copa-do-Mundo/)  )
 
----
 
 ## Tecnologias utilizadas
 
@@ -33,7 +30,6 @@ Aplicação web que simula uma Copa do Mundo completa, desde a fase de grupos at
 * JavaScript (Vanilla)
 * API REST
 
----
 
 ## Como executar o projeto
 
@@ -45,7 +41,6 @@ git clone https://github.com/marcoshjunior/Copa-do-Mundo
 
 2. Abra o arquivo `index.html` no navegador
 
----
 
 ## Autor
 
