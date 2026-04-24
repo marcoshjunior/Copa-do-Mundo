@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #8a1538;
+  --secondary: #bfa046;
+  --bg: #f4f4f6;
+  --card: #ffffff;
+  --text: #1f1f1f;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+}
+
+/* Fundo geral */
+body {
+  background: var(--bg);
+  color: var(--text);
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Container principal */
+#output {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  gap: 15px;
+}
+
+/* Títulos */
+h2 {
+  margin: 30px 0 10px;
+  color: var(--primary);
+  padding-bottom: 5px;
+  font-size: 20px;
+  grid-column: 1 / -1;
+  border-bottom: 3px solid var(--secondary);
+}
+
+h3 {
+  color: var(--secondary);
+  margin: 15px 0 10px;
+  font-size: 15px;
+}
+
+/* Cards (Grupos + Fases) */
+.grupo,
+#output div,
+table {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Lista de times */
+.times {
+  font-size: 13px;
+  width: 40%;
+}
+.lista-times {
+  list-style: none;
+  margin-top: 10px;
+}
+.lista-times li {
+  padding: 3px 0px;
+}
+.placar {
+  font-weight: bold;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--primary);
+  color: #fff;
+  padding: 4px;
+}
+td {
+  padding: 6px;
+  border-bottom: 1px solid var(--border);
+}
+tr:last-child td {
+  border-bottom: none;
+}
+/* linhas alternadas */
+tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+/* Jogos */
+#output div p {
+  padding: 4px 0;
+}
+.jogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  margin: 6px 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border-left: 4px solid #8a1538;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: #6d102c;
+}
+
+.hidden {
+  display: none;
+}
+
+#controls {
+  margin-bottom: 15px;
+}
+
+/* Grupos */
+/*
+.grupo {
+  background: #ffffff;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.grupo p {
+  margin: 5px 0;
+  padding: 3px 0;
+  font-size: 13px;
+}
+*/
+
+/* Tabelas */
+/*
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+  */
+
+/* Cabeçalho */
+/*
+th {
+  background: #f5c542;
+  color: #4a0d1f;
+  padding: 7px;
+  font-size: 13px;
+  text-align: center;
+}
+  */
+
+/* Linhas */
+/*
+td {
+  padding: 6px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+*/
+
+/* Alternar cor das linhas */
+/*
+tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.05);
+}
+  */
+
+/* Mata-mata */
+/*
+#output div {
+  background: #6b1128;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#output div p {
+  padding: 4px 0;
+}
+  */
+
+/* Destaque final */
+/*
+.final {
+  background: #22c55e;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+  */
+
+/* Esconder seções */
+/*
+.hidden {
+  display: none;
+}
+
+#controls {
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 6px 10px;
+  border: none;
+  background: #22c55e;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  */
